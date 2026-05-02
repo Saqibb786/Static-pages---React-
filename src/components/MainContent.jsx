@@ -2,11 +2,14 @@
 export default function MainContent() {
     return (
         <main className="main">
-            <h1 className="main-tite">Reason I am excited to learn React</h1>
-            <ol>
-                <li className="main-list-item">React is a popular library, so I will be able to fit in with all the coolest devs out there! 😎</li>
-                <li className="main-list-item">I am more likely to get a job as a front end developer if I know React</li>
-            </ol>
+            <h1 className="main-title">Fun facts about React</h1>
+            <ul className="facts-list">
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 200K stars on GitHub</li>
+                <li>Is maintained by Meta</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
         </main>
     )
 }
