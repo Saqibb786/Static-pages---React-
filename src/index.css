@@ -1,0 +1,43 @@
+
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #27292c;
+    color: white;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+ /* ============================ 5 ============================  */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+ .nav-list {
+    display: flex;
+    list-style: none;
+ }
+
+ .nav-list-item {
+    font-size: 1.1rem;
+    margin-left: 10px;
+ }
+ 
+ .nav-logo {
+    width: 55px;
+ }
+
+ .main {
+    margin-bottom: 2rem;
+ }
+
+.main-list-item {
+    margin-bottom: 5px;
+}
