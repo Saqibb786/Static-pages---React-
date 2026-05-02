@@ -3,14 +3,20 @@ import reactLogo from "../assets/react.svg"
 export default function Header() {
     return (
         <header className="header">
+            <nav className="nav">
             <img src={reactLogo} className="nav-logo" alt="React logo" />
-            <nav>
-                <ul className="nav-list">
-                    <li className="nav-list-item">Pricing</li>
-                    <li className="nav-list-item">About</li>
-                    <li className="nav-list-item">Contact</li>
-                </ul>
+            <span className="nav-logo-text">ReactFacts</span>
             </nav>
         </header>
     )
 }
+/**
+ * Challenge: complete the Navbar to match the Figma design
+ * 
+ * Hints:
+ * - for semantic HTML purposes, the Navbar should render
+ *   a <header> with a <nav> nested inside. The image and "ReactFacts"
+ *   text elements can both be rendered as children inside the <nav>
+ * - reference the Figma design for the most accurate info about
+ *   colors, sizes, font information, etc.
+ */

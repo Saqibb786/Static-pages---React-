@@ -325,9 +325,32 @@ Challenge: Project setup
   works if you haven't done it before.
 */
 
+===========================================================
+                Project Structure Changed
+===========================================================
 
 //  ============================ 8 ============================ 
 
+/**
+ * Challenge: complete the Navbar to match the Figma design
+ * 
+ * Hints:
+ * - for semantic HTML purposes, the Navbar should render
+ *   a <header> with a <nav> nested inside. The image and "ReactFacts"
+ *   text elements can both be rendered as children inside the <nav>
+ * - reference the Figma design for the most accurate info about
+ *   colors, sizes, font information, etc.
+ */
 
 
 //  ============================ 9 ============================ 
+/**
+ * Challenge: Build out the main content section!
+ * 
+ * For now, skip 2 aspects of the design and we'll work on them later:
+ *   1. The colored bullets in the list
+ *   2. The larger gray React logo on the side
+ */
+//  ============================ 10 ============================ 
+//  ============================ 11 ============================ 
+//  ============================ 12 ============================ 
